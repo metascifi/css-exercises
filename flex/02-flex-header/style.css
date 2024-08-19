@@ -1,6 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  padding: 6px 8px;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
 }
 
 .logo {
@@ -9,17 +25,20 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: auto;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 5px;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 12px;
   /* this removes the line under the links */
   text-decoration: none;
 }
